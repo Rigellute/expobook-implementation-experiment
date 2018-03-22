@@ -1,0 +1,25 @@
+{
+  "name": "testapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "run-expobook": "EXPOBOOK_ENV='development' expobook run"
+  },
+  "dependencies": {
+    "expo": "^25.0.0",
+    "expobook": "https://github.com/teamplanes/expobook.git",
+    "react": "^16.3.0-alpha.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
